@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Access Manager</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <table>
+        <tr>
+          <th><label for="lbl-name">Username:</label></th>
+          <td><input type="text" name="name" id="lbl-name" required /></td>
+        </tr>
+        <tr>
+          <th><label for="lbl-password">Password:</label></th>
+          <td>
+            <input type="password" name="password" id="lbl-password" required />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="lbl-city"> City of Employment: </label></th>
+          <td><input type="text" name="city" id="lbl-city" required /></td>
+        </tr>
+        <tr>
+          <th><label for="lbl-web-sever">Web server:</label></th>
+          <td>
+            <select name="web-sever" id="lbl-web-sever">
+              <option value="">-Choose a server-</option>
+              <option value="">-Choose a server-</option>
+              <option value="">-Choose a server-</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th><label>Please specify you role:</label></th>
+          <td class="function">
+            <label><input type="radio" name="admin" id="" /> Admin</label>
+            <label><input type="radio" name="engineer" id="" /> Engineer</label>
+            <label><input type="radio" name="manager" id="" /> Manager</label>
+            <label><input type="radio" name="guest" id="" /> Guest</label>
+          </td>
+        </tr>
+        <tr>
+          <th><label>Single Sign-on to the following:</label></th>
+          <td class="function">
+            <label><input type="checkbox" name="mail" id="" /> Mail</label>
+            <label>
+              <input type="checkbox" name="payroll" id="" /> Payroll
+            </label>
+            <label>
+              <input type="checkbox" name="self-service" id="" /> Self-service
+            </label>
+          </td>
+        </tr>
+      </table>
+      <button class="btn-login">Login</button>
+      <button class="btn-reset">Reset</button>
+    </form>
+  </body>
+</html>

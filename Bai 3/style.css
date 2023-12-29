@@ -1,0 +1,16 @@
+th {
+  text-align: left;
+}
+
+th label {
+  font-weight: normal;
+}
+
+.function {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-login {
+  margin-left: 150px;
+}
