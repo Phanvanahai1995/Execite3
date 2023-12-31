@@ -1,12 +1,14 @@
 body {
+  padding-top: 100px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
 
-button {
+.image {
   margin-top: 50px;
   padding: 15px 30px;
   border: none;
+  text-decoration: none;
   color: #fff;
   background-color: #1cabed;
 }
@@ -42,7 +44,6 @@ button {
   background-color: #000;
 }
 
-.btn,
-button:hover {
+.btn:hover {
   opacity: 0.8;
 }
